@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js (v14.x.x or higher)
-- npm (v6.x.x or higher) or 
+- npm (v6.x.x or higher) 
 
 ### Installation
 
