@@ -1,14 +1,26 @@
 import React from "react";
-import Header from "./Header";
-import About from "./About";
-import NavBar from "../../react-hooks-react-router-routes-lab-v6/src/components/NavBar";
+import "./App.css"; 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <NavBar />
+      {/* Header */}
+      <header className="header">
+        <div className="logo">Your Logo</div>
+        <nav className="navbar">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/movies">Movies</a></li>
+            <li><a href="/series">Series</a></li>
+            <li><a href="/favorites">Favorites</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      {/* Content */}
+      <div className="content">
+        {/* Your main content goes here */}
+      </div>
     </div>
   );
 }
